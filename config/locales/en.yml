@@ -1,14 +1,19 @@
 ---
 en:
-  spree:
-    available_parts: Available Products
-    can_be_part: Allow Bundling
-    individual_sale: Allow Unbundled
-    no_variants: No variants
-    parts: Bundle Items
-    assembly_cannot_be_part: Bundles cannot be part of other bundles.
-    product_bundles: Product Bundles
-    parts_included: Bundled Items
-    part_of_bundle: 'Part of bundle %{sku}'
-    selected_quantity_not_available: Selected quantity not available
-    user_selectable: User Selectable
+  helpers: 
+    label: 
+      product: 
+        can_be_part: "Can Be Part Of Bundle"
+        individual_sale: "Allow Unbundled Sale"
+  spree: 
+    assembly_cannot_be_part: "Bundles cannot be part of other bundles."
+    available_parts: "Available Products"
+    can_be_part: "Allow Bundling"
+    individual_sale: "Allow Unbundled"
+    no_variants: "No variants"
+    part_of_bundle: "Part of bundle %{sku}"
+    parts: "Bundle Items"
+    parts_included: "Bundled Items"
+    product_bundles: "Product Bundles"
+    selected_quantity_not_available: "Selected quantity not available"
+    user_selectable: "User Selectable"
